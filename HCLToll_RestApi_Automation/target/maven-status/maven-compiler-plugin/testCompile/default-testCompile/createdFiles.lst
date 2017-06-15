@@ -1,5 +1,5 @@
 Utility\Suite_Runner.class
 Utility\Helper.class
+Utility\AdvanceReportGeneration.class
 LocationManagement\Reference_LocationManagement.class
 Utility\SampleRun.class
-Utility\AdvanceReportGeneration.class

@@ -8,12 +8,6 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 
-@ExtendedCucumberOptions(
-jsonReport = "CucumberOutput/cucumber.json",
-retryCount = 3,
-jsonUsageReport = "CucumberOutput/cucumber-usage.json",
-outputFolder = "CucumberOutput")
-
 @CucumberOptions(
 plugin = { "html:CucumberOutput/cucumber-html-report",
         "json:CucumberOutput/cucumber.json", "pretty:CucumberOutput/cucumber-pretty.txt",

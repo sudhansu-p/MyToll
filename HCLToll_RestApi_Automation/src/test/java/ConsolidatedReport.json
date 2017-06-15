@@ -1,0 +1,32 @@
+{
+  "@type": "com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedReportBatch", 
+  "models": [
+    {
+      "items": [
+        {
+          "path": "CucumberOutput/cucumber-results-coverage.html", 
+          "title": "Suite Coverage"
+        }, 
+        {
+          "path": "CucumberOutput/cucumber-results-feature-overview.html", 
+          "title": "Test Case Coverage"
+        }, 
+        {
+          "path": "CucumberOutput/cucumber-results-test-results.html", 
+          "title": "Test Case Detailed Results"
+        }, 
+        {
+          "path": "CucumberOutput/cucumber-usage-report.html", 
+          "title": "Suite Usage Statistics"
+        }, 
+        {
+          "path": "CucumberOutput/cucumber-results-feature-overview-chart.html", 
+          "title": "Suite Quality Scale"
+        }
+      ], 
+      "reportSuffix": "Results", 
+      "title": "Overall Results Batch",
+       "useTableOfContents": true
+    }
+  ]
+}

@@ -52,7 +52,7 @@ public class Reference_LocationManagement {
 
 		if (MethodName.equalsIgnoreCase("Get")) {
 			 try{
-				 SerResp = given().log().all().get(URI);
+				 SerResp = given().header("Test", "check").log().all().get(URI);
 			 }catch (Exception e){
 				 
 				 System.out.println("Unable to connect to Endpoint");
