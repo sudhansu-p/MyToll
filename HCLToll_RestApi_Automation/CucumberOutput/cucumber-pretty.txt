@@ -1,0 +1,140 @@
+Feature: Validate Location Management Rest Api with Address and reference services
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:3[0m
+    [36mGiven [0m[36mA location management URI under sheet "LocationManagement-Reference" from column "3" through <Row>[0m
+    [36mWhen [0m[36mI perform request from Column "2"[0m
+    [36mThen [0m[36mI verify the ResponseCode from column "5"[0m
+    [36mAnd [0m[36mif ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8"[0m
+
+    Examples: 
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:11[0m
+    [32mGiven [0m[32mA location management URI under sheet "[0m[32m[1mLocationManagement-Reference[0m[32m" from column "[0m[32m[1m3[0m[32m" through [0m[32m[1m1[0m      [90m# Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)[0m
+    [32mWhen [0m[32mI perform request from Column "[0m[32m[1m2[0m[32m"[0m                                                                    [90m# Reference_LocationManagement.Get_Request_Method(int)[0m
+    [31mThen [0m[31mI verify the ResponseCode from column "[0m[31m[1m5[0m[31m"[0m                                                            [90m# Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)[0m
+      [31mjava.lang.NullPointerException
+      	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+      	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+      [0m
+    [36mAnd [0m[36mif ResponseCode is "[0m[36m[1m200[0m[36m" then validate Context Type from column "[0m[36m[1m7[0m[36m" and Response time from column "[0m[36m[1m8[0m[36m"[0m [90m# Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)[0m
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:12[0m
+    [32mGiven [0m[32mA location management URI under sheet "[0m[32m[1mLocationManagement-Reference[0m[32m" from column "[0m[32m[1m3[0m[32m" through [0m[32m[1m2[0m      [90m# Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)[0m
+    [32mWhen [0m[32mI perform request from Column "[0m[32m[1m2[0m[32m"[0m                                                                    [90m# Reference_LocationManagement.Get_Request_Method(int)[0m
+    [31mThen [0m[31mI verify the ResponseCode from column "[0m[31m[1m5[0m[31m"[0m                                                            [90m# Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)[0m
+      [31mjava.lang.NullPointerException
+      	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+      	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+      [0m
+    [36mAnd [0m[36mif ResponseCode is "[0m[36m[1m200[0m[36m" then validate Context Type from column "[0m[36m[1m7[0m[36m" and Response time from column "[0m[36m[1m8[0m[36m"[0m [90m# Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)[0m
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:13[0m
+    [32mGiven [0m[32mA location management URI under sheet "[0m[32m[1mLocationManagement-Reference[0m[32m" from column "[0m[32m[1m3[0m[32m" through [0m[32m[1m3[0m      [90m# Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)[0m
+    [32mWhen [0m[32mI perform request from Column "[0m[32m[1m2[0m[32m"[0m                                                                    [90m# Reference_LocationManagement.Get_Request_Method(int)[0m
+    [31mThen [0m[31mI verify the ResponseCode from column "[0m[31m[1m5[0m[31m"[0m                                                            [90m# Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)[0m
+      [31mjava.lang.NullPointerException
+      	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+      	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+      [0m
+    [36mAnd [0m[36mif ResponseCode is "[0m[36m[1m200[0m[36m" then validate Context Type from column "[0m[36m[1m7[0m[36m" and Response time from column "[0m[36m[1m8[0m[36m"[0m [90m# Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)[0m
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:14[0m
+    [32mGiven [0m[32mA location management URI under sheet "[0m[32m[1mLocationManagement-Reference[0m[32m" from column "[0m[32m[1m3[0m[32m" through [0m[32m[1m4[0m      [90m# Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)[0m
+    [32mWhen [0m[32mI perform request from Column "[0m[32m[1m2[0m[32m"[0m                                                                    [90m# Reference_LocationManagement.Get_Request_Method(int)[0m
+    [31mThen [0m[31mI verify the ResponseCode from column "[0m[31m[1m5[0m[31m"[0m                                                            [90m# Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)[0m
+      [31mjava.lang.NullPointerException
+      	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+      	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+      [0m
+    [36mAnd [0m[36mif ResponseCode is "[0m[36m[1m200[0m[36m" then validate Context Type from column "[0m[36m[1m7[0m[36m" and Response time from column "[0m[36m[1m8[0m[36m"[0m [90m# Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)[0m
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:15[0m
+    [32mGiven [0m[32mA location management URI under sheet "[0m[32m[1mLocationManagement-Reference[0m[32m" from column "[0m[32m[1m3[0m[32m" through [0m[32m[1m5[0m      [90m# Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)[0m
+    [32mWhen [0m[32mI perform request from Column "[0m[32m[1m2[0m[32m"[0m                                                                    [90m# Reference_LocationManagement.Get_Request_Method(int)[0m
+    [31mThen [0m[31mI verify the ResponseCode from column "[0m[31m[1m5[0m[31m"[0m                                                            [90m# Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)[0m
+      [31mjava.lang.NullPointerException
+      	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+      	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+      [0m
+    [36mAnd [0m[36mif ResponseCode is "[0m[36m[1m200[0m[36m" then validate Context Type from column "[0m[36m[1m7[0m[36m" and Response time from column "[0m[36m[1m8[0m[36m"[0m [90m# Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)[0m
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:16[0m
+    [32mGiven [0m[32mA location management URI under sheet "[0m[32m[1mLocationManagement-Reference[0m[32m" from column "[0m[32m[1m3[0m[32m" through [0m[32m[1m6[0m      [90m# Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)[0m
+    [32mWhen [0m[32mI perform request from Column "[0m[32m[1m2[0m[32m"[0m                                                                    [90m# Reference_LocationManagement.Get_Request_Method(int)[0m
+    [31mThen [0m[31mI verify the ResponseCode from column "[0m[31m[1m5[0m[31m"[0m                                                            [90m# Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)[0m
+      [31mjava.lang.NullPointerException
+      	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+      	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+      [0m
+    [36mAnd [0m[36mif ResponseCode is "[0m[36m[1m200[0m[36m" then validate Context Type from column "[0m[36m[1m7[0m[36m" and Response time from column "[0m[36m[1m8[0m[36m"[0m [90m# Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)[0m
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:17[0m
+    [32mGiven [0m[32mA location management URI under sheet "[0m[32m[1mLocationManagement-Reference[0m[32m" from column "[0m[32m[1m3[0m[32m" through [0m[32m[1m7[0m      [90m# Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)[0m
+    [32mWhen [0m[32mI perform request from Column "[0m[32m[1m2[0m[32m"[0m                                                                    [90m# Reference_LocationManagement.Get_Request_Method(int)[0m
+    [31mThen [0m[31mI verify the ResponseCode from column "[0m[31m[1m5[0m[31m"[0m                                                            [90m# Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)[0m
+      [31mjava.lang.NullPointerException
+      	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+      	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+      [0m
+    [36mAnd [0m[36mif ResponseCode is "[0m[36m[1m200[0m[36m" then validate Context Type from column "[0m[36m[1m7[0m[36m" and Response time from column "[0m[36m[1m8[0m[36m"[0m [90m# Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)[0m
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:18[0m
+    [32mGiven [0m[32mA location management URI under sheet "[0m[32m[1mLocationManagement-Reference[0m[32m" from column "[0m[32m[1m3[0m[32m" through [0m[32m[1m8[0m      [90m# Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)[0m
+    [32mWhen [0m[32mI perform request from Column "[0m[32m[1m2[0m[32m"[0m                                                                    [90m# Reference_LocationManagement.Get_Request_Method(int)[0m
+    [31mThen [0m[31mI verify the ResponseCode from column "[0m[31m[1m5[0m[31m"[0m                                                            [90m# Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)[0m
+      [31mjava.lang.NullPointerException
+      	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+      	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+      [0m
+    [36mAnd [0m[36mif ResponseCode is "[0m[36m[1m200[0m[36m" then validate Context Type from column "[0m[36m[1m7[0m[36m" and Response time from column "[0m[36m[1m8[0m[36m"[0m [90m# Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)[0m
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:19[0m
+    [32mGiven [0m[32mA location management URI under sheet "[0m[32m[1mLocationManagement-Reference[0m[32m" from column "[0m[32m[1m3[0m[32m" through [0m[32m[1m9[0m      [90m# Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)[0m
+    [32mWhen [0m[32mI perform request from Column "[0m[32m[1m2[0m[32m"[0m                                                                    [90m# Reference_LocationManagement.Get_Request_Method(int)[0m
+    [31mThen [0m[31mI verify the ResponseCode from column "[0m[31m[1m5[0m[31m"[0m                                                            [90m# Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)[0m
+      [31mjava.lang.NullPointerException
+      	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+      	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+      [0m
+    [36mAnd [0m[36mif ResponseCode is "[0m[36m[1m200[0m[36m" then validate Context Type from column "[0m[36m[1m7[0m[36m" and Response time from column "[0m[36m[1m8[0m[36m"[0m [90m# Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)[0m
+
+  Scenario Outline: Validate response code for Reference Service with Path and Query parameter                [90m# LocationManagement/LocationManagement.feature:20[0m
+    [32mGiven [0m[32mA location management URI under sheet "[0m[32m[1mLocationManagement-Reference[0m[32m" from column "[0m[32m[1m3[0m[32m" through [0m[32m[1m10[0m     [90m# Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)[0m
+    [32mWhen [0m[32mI perform request from Column "[0m[32m[1m2[0m[32m"[0m                                                                    [90m# Reference_LocationManagement.Get_Request_Method(int)[0m
+    [31mThen [0m[31mI verify the ResponseCode from column "[0m[31m[1m5[0m[31m"[0m                                                            [90m# Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)[0m
+      [31mjava.lang.NullPointerException
+      	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+      	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+      [0m
+    [36mAnd [0m[36mif ResponseCode is "[0m[36m[1m200[0m[36m" then validate Context Type from column "[0m[36m[1m7[0m[36m" and Response time from column "[0m[36m[1m8[0m[36m"[0m [90m# Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)[0m
+#Author: malkiyat.singh
+Feature: Check the stability of POST request for PickUP feature
+
+  @tag1
+  Scenario: Validate Pet Store Inventory                         [90m# SampleFeature/Sample.feature:5[0m
+    [32mGiven [0m[32mURI is "[0m[32m[1mhttp://petstore.swagger.io/v2/store/inventory[0m[32m"[0m [90m# SampleRun.uri_is(String)[0m
+    [32mWhen [0m[32mPerform GET request[0m                                     [90m# SampleRun.perform_GET_request()[0m
+    [32mThen [0m[32mValidate response "[0m[32m[1m200[0m[32m"[0m                                 [90m# SampleRun.validate_response(String)[0m
+
+  @tag2
+  Scenario Outline: Place an order for a pet                 [90m# SampleFeature/Sample.feature:11[0m
+    [36mGiven [0m[36mURI is "http://petstore.swagger.io/v2/store/order"[0m
+    [36mThen [0m[36mUse sheet "Sample" and <Row> and <Column>[0m
+    [36mWhen [0m[36mPerform POST request[0m
+    [36mThen [0m[36mverify the <ResponseCode>[0m
+
+    Examples: 
+
+  @tag2
+  Scenario Outline: Place an order for a pet                 [90m# SampleFeature/Sample.feature:19[0m
+    [32mGiven [0m[32mURI is "[0m[32m[1mhttp://petstore.swagger.io/v2/store/order[0m[32m"[0m [90m# SampleRun.uri_is(String)[0m
+    [32mThen [0m[32mUse sheet "[0m[32m[1mSample[0m[32m" and [0m[32m[1m0[0m[32m and [0m[32m[1m0[0m                      [90m# SampleRun.use_sheet_and_and(String,int,int)[0m
+    [32mWhen [0m[32mPerform POST request[0m                                [90m# SampleRun.perform_POST_request()[0m
+    [32mThen [0m[32mverify the [0m[32m[1m200[0m                                      [90m# SampleRun.verify_the(int)[0m
+
+  @tag2
+  Scenario Outline: Place an order for a pet                 [90m# SampleFeature/Sample.feature:20[0m
+    [32mGiven [0m[32mURI is "[0m[32m[1mhttp://petstore.swagger.io/v2/store/order[0m[32m"[0m [90m# SampleRun.uri_is(String)[0m
+    [32mThen [0m[32mUse sheet "[0m[32m[1mSample[0m[32m" and [0m[32m[1m0[0m[32m and [0m[32m[1m2[0m                      [90m# SampleRun.use_sheet_and_and(String,int,int)[0m
+    [32mWhen [0m[32mPerform POST request[0m                                [90m# SampleRun.perform_POST_request()[0m
+    [32mThen [0m[32mverify the [0m[32m[1m400[0m                                      [90m# SampleRun.verify_the(int)[0m

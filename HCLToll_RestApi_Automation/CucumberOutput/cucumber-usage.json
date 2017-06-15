@@ -1,0 +1,346 @@
+[
+  {
+    "source": "^Perform GET request$",
+    "steps": [
+      {
+        "name": "Perform GET request",
+        "aggregatedDurations": {
+          "average": 1.918097892,
+          "median": 1.918097892
+        },
+        "durations": [
+          {
+            "duration": 1.918097892,
+            "location": "SampleFeature/Sample.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^URI is \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "URI is \"http://petstore.swagger.io/v2/store/inventory\"",
+        "aggregatedDurations": {
+          "average": 0.000221273,
+          "median": 0.000221273
+        },
+        "durations": [
+          {
+            "duration": 0.000221273,
+            "location": "SampleFeature/Sample.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "URI is \"http://petstore.swagger.io/v2/store/order\"",
+        "aggregatedDurations": {
+          "average": 0.000102015,
+          "median": 0.000102015
+        },
+        "durations": [
+          {
+            "duration": 0.00007882,
+            "location": "SampleFeature/Sample.feature:12"
+          },
+          {
+            "duration": 0.00012521,
+            "location": "SampleFeature/Sample.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Validate response \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Validate response \"200\"",
+        "aggregatedDurations": {
+          "average": 0.162749989,
+          "median": 0.162749989
+        },
+        "durations": [
+          {
+            "duration": 0.162749989,
+            "location": "SampleFeature/Sample.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^verify the (\\d+)$",
+    "steps": [
+      {
+        "name": "verify the 200",
+        "aggregatedDurations": {
+          "average": 0.004255087,
+          "median": 0.004255087
+        },
+        "durations": [
+          {
+            "duration": 0.004255087,
+            "location": "SampleFeature/Sample.feature:15"
+          }
+        ]
+      },
+      {
+        "name": "verify the 400",
+        "aggregatedDurations": {
+          "average": 0.005510061,
+          "median": 0.005510061
+        },
+        "durations": [
+          {
+            "duration": 0.005510061,
+            "location": "SampleFeature/Sample.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I perform request from Column \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I perform request from Column \"2\"",
+        "aggregatedDurations": {
+          "average": 2.444602259,
+          "median": 2.043410917
+        },
+        "durations": [
+          {
+            "duration": 6.068838396,
+            "location": "LocationManagement/LocationManagement.feature:5"
+          },
+          {
+            "duration": 2.027167692,
+            "location": "LocationManagement/LocationManagement.feature:5"
+          },
+          {
+            "duration": 2.051139863,
+            "location": "LocationManagement/LocationManagement.feature:5"
+          },
+          {
+            "duration": 2.060261307,
+            "location": "LocationManagement/LocationManagement.feature:5"
+          },
+          {
+            "duration": 2.057686087,
+            "location": "LocationManagement/LocationManagement.feature:5"
+          },
+          {
+            "duration": 2.031811136,
+            "location": "LocationManagement/LocationManagement.feature:5"
+          },
+          {
+            "duration": 2.031954408,
+            "location": "LocationManagement/LocationManagement.feature:5"
+          },
+          {
+            "duration": 2.053230254,
+            "location": "LocationManagement/LocationManagement.feature:5"
+          },
+          {
+            "duration": 2.028251478,
+            "location": "LocationManagement/LocationManagement.feature:5"
+          },
+          {
+            "duration": 2.035681971,
+            "location": "LocationManagement/LocationManagement.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Perform POST request$",
+    "steps": [
+      {
+        "name": "Perform POST request",
+        "aggregatedDurations": {
+          "average": 1.145224697,
+          "median": 1.145224697
+        },
+        "durations": [
+          {
+            "duration": 1.041153443,
+            "location": "SampleFeature/Sample.feature:14"
+          },
+          {
+            "duration": 1.249295951,
+            "location": "SampleFeature/Sample.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Use sheet \"([^\"]*)\" and (\\d+) and (\\d+)$",
+    "steps": [
+      {
+        "name": "Use sheet \"Sample\" and 0 and 0",
+        "aggregatedDurations": {
+          "average": 0.004290392,
+          "median": 0.004290392
+        },
+        "durations": [
+          {
+            "duration": 0.004290392,
+            "location": "SampleFeature/Sample.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "Use sheet \"Sample\" and 0 and 2",
+        "aggregatedDurations": {
+          "average": 0.006340962,
+          "median": 0.006340962
+        },
+        "durations": [
+          {
+            "duration": 0.006340962,
+            "location": "SampleFeature/Sample.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^A location management URI under sheet \"([^\"]*)\" from column \"([^\"]*)\" through (\\d+)$",
+    "steps": [
+      {
+        "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 1",
+        "aggregatedDurations": {
+          "average": 0.27048148,
+          "median": 0.27048148
+        },
+        "durations": [
+          {
+            "duration": 0.27048148,
+            "location": "LocationManagement/LocationManagement.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 2",
+        "aggregatedDurations": {
+          "average": 0.020501595,
+          "median": 0.020501595
+        },
+        "durations": [
+          {
+            "duration": 0.020501595,
+            "location": "LocationManagement/LocationManagement.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 3",
+        "aggregatedDurations": {
+          "average": 0.00804587,
+          "median": 0.00804587
+        },
+        "durations": [
+          {
+            "duration": 0.00804587,
+            "location": "LocationManagement/LocationManagement.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 4",
+        "aggregatedDurations": {
+          "average": 0.004354434,
+          "median": 0.004354434
+        },
+        "durations": [
+          {
+            "duration": 0.004354434,
+            "location": "LocationManagement/LocationManagement.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 5",
+        "aggregatedDurations": {
+          "average": 0.011533276,
+          "median": 0.011533276
+        },
+        "durations": [
+          {
+            "duration": 0.011533276,
+            "location": "LocationManagement/LocationManagement.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 6",
+        "aggregatedDurations": {
+          "average": 0.009432623,
+          "median": 0.009432623
+        },
+        "durations": [
+          {
+            "duration": 0.009432623,
+            "location": "LocationManagement/LocationManagement.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 7",
+        "aggregatedDurations": {
+          "average": 0.00566606,
+          "median": 0.00566606
+        },
+        "durations": [
+          {
+            "duration": 0.00566606,
+            "location": "LocationManagement/LocationManagement.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 8",
+        "aggregatedDurations": {
+          "average": 0.005352008,
+          "median": 0.005352008
+        },
+        "durations": [
+          {
+            "duration": 0.005352008,
+            "location": "LocationManagement/LocationManagement.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 9",
+        "aggregatedDurations": {
+          "average": 0.002675799,
+          "median": 0.002675799
+        },
+        "durations": [
+          {
+            "duration": 0.002675799,
+            "location": "LocationManagement/LocationManagement.feature:4"
+          }
+        ]
+      },
+      {
+        "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 10",
+        "aggregatedDurations": {
+          "average": 0.010074272,
+          "median": 0.010074272
+        },
+        "durations": [
+          {
+            "duration": 0.010074272,
+            "location": "LocationManagement/LocationManagement.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

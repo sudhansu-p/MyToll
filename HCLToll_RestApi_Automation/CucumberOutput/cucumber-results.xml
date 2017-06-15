@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="10" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="13" time="29.853351">
+<testcase classname="Validate Location Management Rest Api with Address and reference services" name="Validate response code for Reference Service with Path and Query parameter" time="6.883221">
+<failure message="java.lang.NullPointerException&#10;	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)&#10;	at ✽.Then I verify the ResponseCode from column &quot;5&quot;(LocationManagement/LocationManagement.feature:6)&#10;"><![CDATA[Given A location management URI under sheet "LocationManagement-Reference" from column "3" through 1.passed
+When I perform request from Column "2"......................................passed
+Then I verify the ResponseCode from column "5"..............................failed
+And if ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Validate Location Management Rest Api with Address and reference services" name="Validate response code for Reference Service with Path and Query parameter 2" time="2.06029">
+<failure message="java.lang.NullPointerException&#10;	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)&#10;	at ✽.Then I verify the ResponseCode from column &quot;5&quot;(LocationManagement/LocationManagement.feature:6)&#10;"><![CDATA[Given A location management URI under sheet "LocationManagement-Reference" from column "3" through 2.passed
+When I perform request from Column "2"......................................passed
+Then I verify the ResponseCode from column "5"..............................failed
+And if ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Validate Location Management Rest Api with Address and reference services" name="Validate response code for Reference Service with Path and Query parameter 3" time="2.072423">
+<failure message="java.lang.NullPointerException&#10;	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)&#10;	at ✽.Then I verify the ResponseCode from column &quot;5&quot;(LocationManagement/LocationManagement.feature:6)&#10;"><![CDATA[Given A location management URI under sheet "LocationManagement-Reference" from column "3" through 3.passed
+When I perform request from Column "2"......................................passed
+Then I verify the ResponseCode from column "5"..............................failed
+And if ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Validate Location Management Rest Api with Address and reference services" name="Validate response code for Reference Service with Path and Query parameter 4" time="2.075733">
+<failure message="java.lang.NullPointerException&#10;	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)&#10;	at ✽.Then I verify the ResponseCode from column &quot;5&quot;(LocationManagement/LocationManagement.feature:6)&#10;"><![CDATA[Given A location management URI under sheet "LocationManagement-Reference" from column "3" through 4.passed
+When I perform request from Column "2"......................................passed
+Then I verify the ResponseCode from column "5"..............................failed
+And if ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Validate Location Management Rest Api with Address and reference services" name="Validate response code for Reference Service with Path and Query parameter 5" time="2.084067">
+<failure message="java.lang.NullPointerException&#10;	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)&#10;	at ✽.Then I verify the ResponseCode from column &quot;5&quot;(LocationManagement/LocationManagement.feature:6)&#10;"><![CDATA[Given A location management URI under sheet "LocationManagement-Reference" from column "3" through 5.passed
+When I perform request from Column "2"......................................passed
+Then I verify the ResponseCode from column "5"..............................failed
+And if ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Validate Location Management Rest Api with Address and reference services" name="Validate response code for Reference Service with Path and Query parameter 6" time="2.053925">
+<failure message="java.lang.NullPointerException&#10;	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)&#10;	at ✽.Then I verify the ResponseCode from column &quot;5&quot;(LocationManagement/LocationManagement.feature:6)&#10;"><![CDATA[Given A location management URI under sheet "LocationManagement-Reference" from column "3" through 6.passed
+When I perform request from Column "2"......................................passed
+Then I verify the ResponseCode from column "5"..............................failed
+And if ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Validate Location Management Rest Api with Address and reference services" name="Validate response code for Reference Service with Path and Query parameter 7" time="2.047928">
+<failure message="java.lang.NullPointerException&#10;	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)&#10;	at ✽.Then I verify the ResponseCode from column &quot;5&quot;(LocationManagement/LocationManagement.feature:6)&#10;"><![CDATA[Given A location management URI under sheet "LocationManagement-Reference" from column "3" through 7.passed
+When I perform request from Column "2"......................................passed
+Then I verify the ResponseCode from column "5"..............................failed
+And if ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Validate Location Management Rest Api with Address and reference services" name="Validate response code for Reference Service with Path and Query parameter 8" time="2.083738">
+<failure message="java.lang.NullPointerException&#10;	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)&#10;	at ✽.Then I verify the ResponseCode from column &quot;5&quot;(LocationManagement/LocationManagement.feature:6)&#10;"><![CDATA[Given A location management URI under sheet "LocationManagement-Reference" from column "3" through 8.passed
+When I perform request from Column "2"......................................passed
+Then I verify the ResponseCode from column "5"..............................failed
+And if ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Validate Location Management Rest Api with Address and reference services" name="Validate response code for Reference Service with Path and Query parameter 9" time="2.038624">
+<failure message="java.lang.NullPointerException&#10;	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)&#10;	at ✽.Then I verify the ResponseCode from column &quot;5&quot;(LocationManagement/LocationManagement.feature:6)&#10;"><![CDATA[Given A location management URI under sheet "LocationManagement-Reference" from column "3" through 9.passed
+When I perform request from Column "2"......................................passed
+Then I verify the ResponseCode from column "5"..............................failed
+And if ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Validate Location Management Rest Api with Address and reference services" name="Validate response code for Reference Service with Path and Query parameter 10" time="2.053948">
+<failure message="java.lang.NullPointerException&#10;	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)&#10;	at ✽.Then I verify the ResponseCode from column &quot;5&quot;(LocationManagement/LocationManagement.feature:6)&#10;"><![CDATA[Given A location management URI under sheet "LocationManagement-Reference" from column "3" through 10.passed
+When I perform request from Column "2"......................................passed
+Then I verify the ResponseCode from column "5"..............................failed
+And if ResponseCode is "200" then validate Context Type from column "7" and Response time from column "8".skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)
+	at ✽.Then I verify the ResponseCode from column "5"(LocationManagement/LocationManagement.feature:6)
+]]></failure>
+</testcase>
+<testcase classname="Check the stability of POST request for PickUP feature" name="Validate Pet Store Inventory" time="2.082289">
+<system-out><![CDATA[Given URI is "http://petstore.swagger.io/v2/store/inventory"................passed
+When Perform GET request....................................................passed
+Then Validate response "200"................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check the stability of POST request for PickUP feature" name="Place an order for a pet" time="1.054764">
+<system-out><![CDATA[Given URI is "http://petstore.swagger.io/v2/store/order"....................passed
+Then Use sheet "Sample" and 0 and 0.........................................passed
+When Perform POST request...................................................passed
+Then verify the 200.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check the stability of POST request for PickUP feature" name="Place an order for a pet 2" time="1.262401">
+<system-out><![CDATA[Given URI is "http://petstore.swagger.io/v2/store/order"....................passed
+Then Use sheet "Sample" and 0 and 2.........................................passed
+When Perform POST request...................................................passed
+Then verify the 400.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

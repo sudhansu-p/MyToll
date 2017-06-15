@@ -1,0 +1,1556 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 521550896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 449935,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate response code for Reference Service with Path and Query parameter",
+        "description": "",
+        "id": "validate-location-management-rest-api-with-address-and-reference-services;validate-response-code-for-reference-service-with-path-and-query-parameter;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 270481480,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LocationManagement-Reference",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 82
+                },
+                {
+                  "val": "1",
+                  "offset": 93
+                }
+              ],
+              "location": "Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6068838396,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform request from Column \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "Reference_LocationManagement.Get_Request_Method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21899842,
+              "error_message": "java.lang.NullPointerException\r\n\tat LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)\r\n\tat ✽.Then I verify the ResponseCode from column \"5\"(LocationManagement/LocationManagement.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I verify the ResponseCode from column \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "if ResponseCode is \"200\" then validate Context Type from column \"7\" and Response time from column \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "7",
+                  "offset": 65
+                },
+                {
+                  "val": "8",
+                  "offset": 99
+                }
+              ],
+              "location": "Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 605524,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 256577,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate response code for Reference Service with Path and Query parameter",
+        "description": "",
+        "id": "validate-location-management-rest-api-with-address-and-reference-services;validate-response-code-for-reference-service-with-path-and-query-parameter;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20501595,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LocationManagement-Reference",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 82
+                },
+                {
+                  "val": "2",
+                  "offset": 93
+                }
+              ],
+              "location": "Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2027167692,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform request from Column \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "Reference_LocationManagement.Get_Request_Method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11758243,
+              "error_message": "java.lang.NullPointerException\r\n\tat LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)\r\n\tat ✽.Then I verify the ResponseCode from column \"5\"(LocationManagement/LocationManagement.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I verify the ResponseCode from column \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "if ResponseCode is \"200\" then validate Context Type from column \"7\" and Response time from column \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "7",
+                  "offset": 65
+                },
+                {
+                  "val": "8",
+                  "offset": 99
+                }
+              ],
+              "location": "Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1372794,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 574735,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate response code for Reference Service with Path and Query parameter",
+        "description": "",
+        "id": "validate-location-management-rest-api-with-address-and-reference-services;validate-response-code-for-reference-service-with-path-and-query-parameter;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8045870,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LocationManagement-Reference",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 82
+                },
+                {
+                  "val": "3",
+                  "offset": 93
+                }
+              ],
+              "location": "Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2051139863,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform request from Column \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "Reference_LocationManagement.Get_Request_Method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11289425,
+              "error_message": "java.lang.NullPointerException\r\n\tat LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)\r\n\tat ✽.Then I verify the ResponseCode from column \"5\"(LocationManagement/LocationManagement.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I verify the ResponseCode from column \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "if ResponseCode is \"200\" then validate Context Type from column \"7\" and Response time from column \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "7",
+                  "offset": 65
+                },
+                {
+                  "val": "8",
+                  "offset": 99
+                }
+              ],
+              "location": "Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 970070,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 410114,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate response code for Reference Service with Path and Query parameter",
+        "description": "",
+        "id": "validate-location-management-rest-api-with-address-and-reference-services;validate-response-code-for-reference-service-with-path-and-query-parameter;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4354434,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LocationManagement-Reference",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 82
+                },
+                {
+                  "val": "4",
+                  "offset": 93
+                }
+              ],
+              "location": "Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2060261307,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform request from Column \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "Reference_LocationManagement.Get_Request_Method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9737232,
+              "error_message": "java.lang.NullPointerException\r\n\tat LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)\r\n\tat ✽.Then I verify the ResponseCode from column \"5\"(LocationManagement/LocationManagement.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I verify the ResponseCode from column \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "if ResponseCode is \"200\" then validate Context Type from column \"7\" and Response time from column \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "7",
+                  "offset": 65
+                },
+                {
+                  "val": "8",
+                  "offset": 99
+                }
+              ],
+              "location": "Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 695428,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 644112,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validate response code for Reference Service with Path and Query parameter",
+        "description": "",
+        "id": "validate-location-management-rest-api-with-address-and-reference-services;validate-response-code-for-reference-service-with-path-and-query-parameter;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11533276,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LocationManagement-Reference",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 82
+                },
+                {
+                  "val": "5",
+                  "offset": 93
+                }
+              ],
+              "location": "Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2057686087,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform request from Column \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "Reference_LocationManagement.Get_Request_Method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13508310,
+              "error_message": "java.lang.NullPointerException\r\n\tat LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)\r\n\tat ✽.Then I verify the ResponseCode from column \"5\"(LocationManagement/LocationManagement.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I verify the ResponseCode from column \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "if ResponseCode is \"200\" then validate Context Type from column \"7\" and Response time from column \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "7",
+                  "offset": 65
+                },
+                {
+                  "val": "8",
+                  "offset": 99
+                }
+              ],
+              "location": "Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 335399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 284904,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validate response code for Reference Service with Path and Query parameter",
+        "description": "",
+        "id": "validate-location-management-rest-api-with-address-and-reference-services;validate-response-code-for-reference-service-with-path-and-query-parameter;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9432623,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LocationManagement-Reference",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 82
+                },
+                {
+                  "val": "6",
+                  "offset": 93
+                }
+              ],
+              "location": "Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2031811136,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform request from Column \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "Reference_LocationManagement.Get_Request_Method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12061211,
+              "error_message": "java.lang.NullPointerException\r\n\tat LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)\r\n\tat ✽.Then I verify the ResponseCode from column \"5\"(LocationManagement/LocationManagement.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I verify the ResponseCode from column \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "if ResponseCode is \"200\" then validate Context Type from column \"7\" and Response time from column \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "7",
+                  "offset": 65
+                },
+                {
+                  "val": "8",
+                  "offset": 99
+                }
+              ],
+              "location": "Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 421198,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 388767,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate response code for Reference Service with Path and Query parameter",
+        "description": "",
+        "id": "validate-location-management-rest-api-with-address-and-reference-services;validate-response-code-for-reference-service-with-path-and-query-parameter;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5666060,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LocationManagement-Reference",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 82
+                },
+                {
+                  "val": "7",
+                  "offset": 93
+                }
+              ],
+              "location": "Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2031954408,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform request from Column \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "Reference_LocationManagement.Get_Request_Method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9497485,
+              "error_message": "java.lang.NullPointerException\r\n\tat LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)\r\n\tat ✽.Then I verify the ResponseCode from column \"5\"(LocationManagement/LocationManagement.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I verify the ResponseCode from column \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "if ResponseCode is \"200\" then validate Context Type from column \"7\" and Response time from column \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "7",
+                  "offset": 65
+                },
+                {
+                  "val": "8",
+                  "offset": 99
+                }
+              ],
+              "location": "Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3253407,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 507819,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Validate response code for Reference Service with Path and Query parameter",
+        "description": "",
+        "id": "validate-location-management-rest-api-with-address-and-reference-services;validate-response-code-for-reference-service-with-path-and-query-parameter;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5352008,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LocationManagement-Reference",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 82
+                },
+                {
+                  "val": "8",
+                  "offset": 93
+                }
+              ],
+              "location": "Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2053230254,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform request from Column \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "Reference_LocationManagement.Get_Request_Method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21394075,
+              "error_message": "java.lang.NullPointerException\r\n\tat LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)\r\n\tat ✽.Then I verify the ResponseCode from column \"5\"(LocationManagement/LocationManagement.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I verify the ResponseCode from column \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "if ResponseCode is \"200\" then validate Context Type from column \"7\" and Response time from column \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "7",
+                  "offset": 65
+                },
+                {
+                  "val": "8",
+                  "offset": 99
+                }
+              ],
+              "location": "Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 289009,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 254115,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate response code for Reference Service with Path and Query parameter",
+        "description": "",
+        "id": "validate-location-management-rest-api-with-address-and-reference-services;validate-response-code-for-reference-service-with-path-and-query-parameter;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2675799,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LocationManagement-Reference",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 82
+                },
+                {
+                  "val": "9",
+                  "offset": 93
+                }
+              ],
+              "location": "Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2028251478,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform request from Column \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "Reference_LocationManagement.Get_Request_Method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7153801,
+              "error_message": "java.lang.NullPointerException\r\n\tat LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)\r\n\tat ✽.Then I verify the ResponseCode from column \"5\"(LocationManagement/LocationManagement.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I verify the ResponseCode from column \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "if ResponseCode is \"200\" then validate Context Type from column \"7\" and Response time from column \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "7",
+                  "offset": 65
+                },
+                {
+                  "val": "8",
+                  "offset": 99
+                }
+              ],
+              "location": "Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 649860,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 537376,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validate response code for Reference Service with Path and Query parameter",
+        "description": "",
+        "id": "validate-location-management-rest-api-with-address-and-reference-services;validate-response-code-for-reference-service-with-path-and-query-parameter;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10074272,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A location management URI under sheet \"LocationManagement-Reference\" from column \"3\" through 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LocationManagement-Reference",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 82
+                },
+                {
+                  "val": "10",
+                  "offset": 93
+                }
+              ],
+              "location": "Reference_LocationManagement.a_location_management_URI_under_sheet_from_column_through(String,int,int)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2035681971,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform request from Column \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 31
+                }
+              ],
+              "location": "Reference_LocationManagement.Get_Request_Method(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7004780,
+              "error_message": "java.lang.NullPointerException\r\n\tat LocationManagement.Reference_LocationManagement.i_verify_the_ResponseCode_from_column(Reference_LocationManagement.java:74)\r\n\tat ✽.Then I verify the ResponseCode from column \"5\"(LocationManagement/LocationManagement.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I verify the ResponseCode from column \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 39
+                }
+              ],
+              "location": "Reference_LocationManagement.i_verify_the_ResponseCode_from_column(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "if ResponseCode is \"200\" then validate Context Type from column \"7\" and Response time from column \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 20
+                },
+                {
+                  "val": "7",
+                  "offset": 65
+                },
+                {
+                  "val": "8",
+                  "offset": 99
+                }
+              ],
+              "location": "Reference_LocationManagement.if_ResponseCode_is_then_validate_Context_Type_from_column_and_Response_time_from_column(int,int,int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Location Management Rest Api with Address and reference services",
+    "description": "",
+    "id": "validate-location-management-rest-api-with-address-and-reference-services",
+    "keyword": "Feature",
+    "uri": "LocationManagement/LocationManagement.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: malkiyat.singh"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 686397,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 533682,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate Pet Store Inventory",
+        "description": "",
+        "id": "check-the-stability-of-post-request-for-pickup-feature;validate-pet-store-inventory",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 221273,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "URI is \"http://petstore.swagger.io/v2/store/inventory\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://petstore.swagger.io/v2/store/inventory",
+                  "offset": 8
+                }
+              ],
+              "location": "SampleRun.uri_is(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1918097892,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Perform GET request",
+            "match": {
+              "location": "SampleRun.perform_GET_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162749989,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate response \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "SampleRun.validate_response(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4670127,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 316515,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Place an order for a pet",
+        "description": "",
+        "id": "check-the-stability-of-post-request-for-pickup-feature;place-an-order-for-a-pet;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 78820,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "URI is \"http://petstore.swagger.io/v2/store/order\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://petstore.swagger.io/v2/store/order",
+                  "offset": 8
+                }
+              ],
+              "location": "SampleRun.uri_is(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4290392,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Use sheet \"Sample\" and 0 and 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sample",
+                  "offset": 11
+                },
+                {
+                  "val": "0",
+                  "offset": 23
+                },
+                {
+                  "val": "0",
+                  "offset": 29
+                }
+              ],
+              "location": "SampleRun.use_sheet_and_and(String,int,int)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1041153443,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Perform POST request",
+            "match": {
+              "location": "SampleRun.perform_POST_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4255087,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify the 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 11
+                }
+              ],
+              "location": "SampleRun.verify_the(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 646166,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Reference_LocationManagement.StatupConfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 482777,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SampleRun.StatupConfig()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Place an order for a pet",
+        "description": "",
+        "id": "check-the-stability-of-post-request-for-pickup-feature;place-an-order-for-a-pet;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 125210,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "URI is \"http://petstore.swagger.io/v2/store/order\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://petstore.swagger.io/v2/store/order",
+                  "offset": 8
+                }
+              ],
+              "location": "SampleRun.uri_is(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6340962,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Use sheet \"Sample\" and 0 and 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sample",
+                  "offset": 11
+                },
+                {
+                  "val": "0",
+                  "offset": 23
+                },
+                {
+                  "val": "2",
+                  "offset": 29
+                }
+              ],
+              "location": "SampleRun.use_sheet_and_and(String,int,int)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1249295951,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Perform POST request",
+            "match": {
+              "location": "SampleRun.perform_POST_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5510061,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify the 400",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 11
+                }
+              ],
+              "location": "SampleRun.verify_the(int)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Check the stability of POST request for PickUP feature",
+    "description": "",
+    "id": "check-the-stability-of-post-request-for-pickup-feature",
+    "keyword": "Feature",
+    "uri": "SampleFeature/Sample.feature"
+  }
+]
