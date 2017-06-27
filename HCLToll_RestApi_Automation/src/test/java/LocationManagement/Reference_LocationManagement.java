@@ -26,7 +26,7 @@ public class Reference_LocationManagement {
 
 	@Before
 	public static void StatupConfig() throws IOException {
-		FileInputStream PropPath = new FileInputStream(/src/test/java/GenericRepository.properties");
+		FileInputStream PropPath = new FileInputStream(src/test/java/GenericRepository.properties");
 		Property.load(PropPath);
 		RestAssured.baseURI = Property.getProperty("Reference_Entrypoint");
 		RestAssured.basePath = Property.getProperty("Reference_BasePath");
